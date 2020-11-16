@@ -26,6 +26,7 @@ function ternaryTeenager(age) {
 }
 
 function switchAge(age) {
+  switch(age) {
   case 13:
   case 14:
   case 15:
@@ -37,7 +38,7 @@ function switchAge(age) {
   break;
   default:
   console.log("You have an age");
-
+}
 }
 
 describe('flow-control', () => {
